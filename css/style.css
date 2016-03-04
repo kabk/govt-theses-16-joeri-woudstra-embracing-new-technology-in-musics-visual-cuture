@@ -60,21 +60,25 @@ body {
 
 
 
-/*@font-face { 
-  skrollr-animation-name: fontz;
-  font-family: 'maintext';}
-@-skrollr-keyframes fontz{
-  500{
-    src: url('THEFADER/Title.woff');
+
+/*#count{ width:100px; height:100px; top:20%; left:20%; z-index:1000000; position:fixed;}*/
+
+@media print{
+  div.online{
+    display: none;
   }
-  1000{
-    src: url('EurostileLTStd-BoldEx2.otf');
+  div.print{
+    display: block;
   }
-}*/
+}
 
+.print {
+  display: none;
+}
 
-#count{ width:100px; height:100px; top:20%; left:20%; z-index:1000000; position:fixed;}
-
+sup:hover {
+  cursor: hand;
+}
 .container{
   position: absolute;
   height: 2000px;
@@ -490,7 +494,7 @@ font-size: 3.0vh;
 line-height: 130%; /*transition:1s ease*/
 }
 
-.text h1{
+#intro{
   font-size: 5vh;
   font-weight: normal;
   font-family: Arial;
@@ -508,7 +512,7 @@ line-height: 130%; /*transition:1s ease*/
   
 }
 
-.text h2{
+#bedroom{
   font-size: 5vh;
   font-weight: normal;
   font-family: faderchapter;
@@ -526,10 +530,10 @@ line-height: 130%; /*transition:1s ease*/
 
 }
 
-.text h3{
+#shapeless{
   font-size: 5vh;
   font-weight: normal;
-  font-family: Arial;
+  font-family: dazed;
   font-family: bold;
   letter-spacing: -1;
   padding-top: 10px;
@@ -545,7 +549,7 @@ line-height: 130%; /*transition:1s ease*/
   
 }
 
-.text h4{
+#social{
   font-size: 5vh;
   font-weight: normal;
   font-family: Arial;
@@ -563,7 +567,7 @@ line-height: 130%; /*transition:1s ease*/
 
 }
 
-.text h5{
+#websites{
   font-size: 5vh;
   font-weight: normal;
   font-family: dazedtitle;
@@ -582,7 +586,7 @@ line-height: 130%; /*transition:1s ease*/
   
 }
 
-.text h6{
+#newmedia{
   font-size: 5vh;
   font-weight: normal;
   font-family: Helvetica;
@@ -601,7 +605,7 @@ line-height: 130%; /*transition:1s ease*/
 
 }
 
-.text h7{
+#performance{
   font-size: 5vh;
   font-weight: normal;
   font-family: dazed;
