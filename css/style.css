@@ -41,6 +41,7 @@ body {
  a:hover{
   font-style: normal;
   color: rgb(0,0,255);
+  cursor: hand;
   }
 
 
@@ -62,80 +63,6 @@ body {
 
 
 /*#count{ width:100px; height:100px; top:20%; left:20%; z-index:1000000; position:fixed;}*/
-
-@media print{
-.text{
-  padding: 20px;
-}
-
-#imagebar{
-  display: none;
-}
-
-.chapters{
-  display: none;
-}
-
-#intro{
-  display: none;
-}
-
-.text p2{
-  
-}
-
-#bedroom{
-  display: none;
-}
-
-.text p3{
-
-}
-
-#shapeless{
-  display: none;
-}
-
-.text p4{
-  
-}
-
-#social{
-  display: none;
-}
-
-.text p5{
-
-}
-
-#websites{
-  display: none;
-}
-
-.text p6{
-  
-}
-
-#newmedia{  
-  display: none;
-}
-
-.text p7{
-
-}
-
-#performance{
-  display: none;
-}
-
-.text p8{
-  
-}
-
-#conclusion {
-  display: none;
-}
-  }
 
 .print {
   display: none;
@@ -541,7 +468,7 @@ sup:hover {
 
 .text img{
   max-width: 160%;
-  margin: -40% -30% 0% -30%;
+  margin: -20% -30% 0% -30%;
   margin-bottom: 10px;
 }
 
@@ -1756,6 +1683,12 @@ height: 100%;
   left: -19%;
   }}
 
+#subtitle{
+  font-family: Arial;
+  font-size: 3vh;
+  font-style: normal;
+}
+
 #social1{
   position: fixed;
   width: 33.3%;
@@ -1884,4 +1817,12 @@ height: 100%;
   10000{ }
   11600{ }
   12100{ }
+}
+
+@media print{
+.online{
+  display: none;}
+.print{
+  display: block;
+}
 }
