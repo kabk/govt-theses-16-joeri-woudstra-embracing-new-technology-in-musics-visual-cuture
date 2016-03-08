@@ -68,8 +68,10 @@ body {
   display: none;
 }
 
-.online{
-  max-width: 1000px;
+.onlinee{
+  width: 1000px;
+  position: fixed;
+  overflow: hidden;
 }
 
 sup:hover {
@@ -467,7 +469,7 @@ sup:hover {
 }
 
 .text img{
-  max-width: 160%;
+  width: 160%;
   margin: -20% -30% 0% -30%;
   margin-bottom: 10px;
 }
