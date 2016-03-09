@@ -3,31 +3,18 @@
  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
  <title>UR SCREEN AS MY ALBUM COVER - JOERI WOUDSTRA, 2016</title>
 
- <meta charset="utf-8"/> <!-- You need this so the browser can understand ‘typographic quotes’ and accented characters éëê etc.-->
- <meta name="viewport" content="width=device-width, initial-scale=1"/> <!-- Stops mobile browsers from ‘zooming out’: this allows you to create specific layout for mobile -->
-<!-- A short description of the page: -->
+ <meta charset="utf-8"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-  <meta name="description" content="The static printed album cover has turned into the organic and ever-changing computer screen, but the album covers are still square (and not moving?). Artists seem to be falling in a routine when announcing a new record; an exciting message on Facebook, an interview at this blog; a mix for that blog; a show at that cool festival. How has the way the artist presents him or herself to its audience changed in the last couple of years? And even more important: what is going to change hereon after?" /><!-- Description. Used a.o. by Facebook -->
-  <meta property="og:title" content="Your screen as my album cover" /><!-- The title that appears on Facebook-->
- <!-- This is the the preview image used by Facebook/Twitter.
-Facebook currently prefers a 1200x630 image
-Import: this has to be an absolute url including the domain name -->
+  <meta name="description" content="The static printed album cover has turned into the organic and ever-changing computer screen, but the album covers are still square (and not moving?). Artists seem to be falling in a routine when announcing a new record; an exciting message on Facebook, an interview at this blog; a mix for that blog; a show at that cool festival. How has the way the artist presents him or herself to its audience changed in the last couple of years? And even more important: what is going to change hereon after?" />
+  <meta property="og:title" content="Your screen as my album cover" />
+ 
  <meta property="og:image" content="http://kabk.github.io/govt-theses-16-joeri-woudstra-embracing-new-technology-in-musics-visual-cuture/thesisimages/COVER.gif" />
  <meta property="dc:creator" content="Joeri Woudstra"/>
 
   <link rel="stylesheet" type="text/css" href="css/style.css" data-skrollr-stylesheet />
   <script src="csi/jquery-2.1.0.min.js"></script>
   <script src="csi/jquery-canvas-sparkles.js"></script>
-
-  <script type="text/javascript">//<![CDATA[ 
-$(window).load(function(){
-$('.text').on('scroll', function () {
-  $('.imagebar').scrollTop($(this).scrollTop()/4);
-});
-}); 
-
-
-</script>
 
  </head>
 
@@ -47,7 +34,7 @@ $('.text').on('scroll', function () {
 <div class="chapters" id="chapter4"><div class="chaptercontainer"> Social </div><div id="chapterrandje"></div></div>
 <div class="chapters" id="chapter5"><div class="chaptercontainer"> Websites </div><div id="chapterrandje"></div></div>
 <div class="chapters" id="chapter6"><div class="chaptercontainer"> New Media </div><div id="chapterrandje"></div></div>
-<div class="chapters" id="chapter7"><div class="chaptercontainer"> Land Art </div><div id="chapterrandje"></div></div>
+<div class="chapters" id="chapter7"><div class="chaptercontainer"> Perform </div><div id="chapterrandje"></div></div>
 <div class="chapters" id="chapter8"><div class="chaptercontainer"> Platforms</div></div>
 
 <div class="complexblok" id="blokje1"></div>
@@ -97,7 +84,7 @@ With rapid technological changes like social media and the screen in mind, I won
 <h2 id="bedroom">Too many bedrooms</h2>
 <!-- <p><span class="pixels"></span> Pixels Scrolled</p>-->
 <p2>
-The digital revolution has caused production of music to turn completely digital. This means that any upper middle class kid with an internet connection and a torrent client can and will get into music, instead of stocking shelves in the local supermarket. With the internet both enlarging audiences and illuminating the way to the right scenes for the right sounds, a lot of young emerging artists have gotten the opportunity to reach overnight success with their digital creations, in the form of 5 digit + “play” and “like” counts. The reach for attention on the digital platform has become a championship of some sort. Rather than making music for the music’s sake, a constant demand for positive digital feedback seems to be the drive for young producers to make music more and more. This has two major consequences on the market:
+The digital revolution has caused production of music to turn completely digital. This means that any upper middle class kid with an internet connection and a torrent client can and will get into music, instead of stocking shelves in the local supermarket. With the internet both enlarging audiences and illuminating the way to the right scenes for the right sounds, a lot of young emerging artists have gotten the opportunity to reach overnight success with their digital creations, in the form of 5 digit + “play” and “like” counts. The reach for attention on the digital platform has become a championship of some sort. Rather than making music for the music’s sake, a constant demand for positive digital feedback seems to be the drive for young <a href="http://wallofsoundmagazine.com/2014/03/01/the-rise-of-the-bedroom-producer/">bedroom producers</a> to make music more and more. This has two major consequences on the market:
 
 <ul>
 <li>The music market is oversaturated.</li>
@@ -310,8 +297,8 @@ Sent from my iPhone
 <div class="images"><img src="thesisimages/BLIMP.jpg" width="100%" height="auto"> <b>Figure 10</b> - A picture of the green Aphex Twin blimp flying between the London clouds.</div>
 <div class="images"><img src="thesisimages/TRANCE.jpg" width="100%" height="auto"> <b>Figure 11</b> - Photo shot at Evian Christ's Trance Party, 2015.</div></div>
 
-<div class="print">
-This thesis by Joeri Woudstra is only readable by viewing it online over at this wonderful URL: http://kabk.github.io/govt-theses-16-joeri-woudstra-embracing-new-technology-in-musics-visual-cuture/
+<div id="printDiv">
+If you want to experience the thesis "UR SCREEN AS MY ALBUM COVER" written and coded by Joeri Woudstra please type this URL in on your computer: http://kabk.github.io/govt-theses-16-joeri-woudstra-embracing-new-technology-in-musics-visual-cuture/
 </div>
 
 
@@ -320,14 +307,14 @@ This thesis by Joeri Woudstra is only readable by viewing it online over at this
 
 <script type="text/javascript">
 
-  $(function(){ $('#chapter1').click(function(){ $('html, body').animate({scrollTop: $("#intro").offset().top}, 2000); }) });
+  $(function(){ $('#chapter1').click(function(){ $('html, body').animate({scrollTop: $("#intro").offset().top -100}, 2000); }) });
   $(function(){ $('#chapter2').click(function(){ $('html, body').animate({scrollTop: $("#bedroom").offset().top -170}, 2000); }) });
-  $(function(){ $('#chapter3').click(function(){ $('html, body').animate({scrollTop: $("#shapeless").offset().top}, 2000); }) });
-  $(function(){ $('#chapter4').click(function(){ $('html, body').animate({scrollTop: $("#social").offset().top}, 2000); }) });
-  $(function(){ $('#chapter5').click(function(){ $('html, body').animate({scrollTop: $("#websites").offset().top}, 2000); }) });
-  $(function(){ $('#chapter6').click(function(){ $('html, body').animate({scrollTop: $("#newmedia").offset().top}, 2000); }) });
-  $(function(){ $('#chapter7').click(function(){ $('html, body').animate({scrollTop: $("#landart").offset().top}, 2000); }) });
-  $(function(){ $('#chapter8').click(function(){ $('html, body').animate({scrollTop: $("#conclusion").offset().top}, 2000); }) });
+  $(function(){ $('#chapter3').click(function(){ $('html, body').animate({scrollTop: $("#shapeless").offset().top +100}, 2000); }) });
+  $(function(){ $('#chapter4').click(function(){ $('html, body').animate({scrollTop: $("#social").offset().top -150}, 2000); }) });
+  $(function(){ $('#chapter5').click(function(){ $('html, body').animate({scrollTop: $("#websites").offset().top -100}, 2000); }) });
+  $(function(){ $('#chapter6').click(function(){ $('html, body').animate({scrollTop: $("#newmedia").offset().top -200}, 2000); }) });
+  $(function(){ $('#chapter7').click(function(){ $('html, body').animate({scrollTop: $("#performance").offset().top -55}, 2000); }) });
+  $(function(){ $('#chapter8').click(function(){ $('html, body').animate({scrollTop: $("#conclusion").offset().top -2000}, 2000); }) });
 
 </script>
 
@@ -340,21 +327,10 @@ $w.on("scroll", function(e){
 });</script>
 
 
-<script>
-  (function() {
-   var target = $(".text");
-   $("#imagebar").scroll(function() {
-    target.prop("scrollTop", this.scrollTop)
-      .prop("scrollLeft", this.scrollLeft);
-
-</script>
-
-
-
   <script type="text/javascript" src="csi/skrollr.stylesheets.min.js"></script>
   <script type="text/javascript" src="csi/skrollr.min.js"></script>
   <script type="text/javascript">
-  var s = skrollr.init(smoothScrolling=true, smoothScrollingDuration=5000);
+  var s = skrollr.init([smoothScrolling=false, smoothScrollingDuration=5000]);
   </script>
  </body>
 

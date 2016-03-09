@@ -1,10 +1,8 @@
 body {
-
   -skrollr-animation-name: body;
-        margin: 0px;
-        padding: 0px;
-        background-color: #ffffff;
-        height: 2000px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #ffffff;
 }
 
 
@@ -45,6 +43,16 @@ body {
   }
 
 
+sup{
+  font-weight: bold;
+  color: rgb(255,100,255);
+}
+
+sup:hover {
+  cursor: hand;
+}
+
+
 @font-face { font-family: 'Kaiti'; src: url('sAdobeKaiti-Regular.ttf');}
 @font-face { font-family: 'Eurostile'; src: url('EurostileLTStd-BoldEx2.otf');}
 @font-face { font-family: 'Eurostile2'; src: url('EurostileExtended-Roman-DTC.ttf');}
@@ -68,15 +76,8 @@ body {
   display: none;
 }
 
-.onlinee{
-  width: 1000px;
-  position: fixed;
-  overflow: hidden;
-}
 
-sup:hover {
-  cursor: hand;
-}
+@media screen{
 .container{
   position: absolute;
   height: 2000px;
@@ -1820,11 +1821,261 @@ height: 100%;
   11600{ }
   12100{ }
 }
+}
 
 @media print{
-.online{
+
+body{
+  background-color: #ffffff;
+  overflow: hidden;
+  height: 100px;
+}
+
+.container{
+  display: none;
+}
+
+.introdiv{
+  display: none;
+}
+
+.titlecontainer{
+  display: none;
+  }
+
+.titlemain{
+   display: none;
+  }
+
+
+.imagebar{
+  display: none;
+  }
+
+.images{
   display: none;}
-.print{
-  display: block;
+
+#index{
+  display: none;}
+
+.text{
+  display: none;
 }
+
+#intro{
+  display: none;
 }
+
+#bedroom{
+  display: none;
+}
+
+#shapeless{
+  display: none;
+}
+
+#social{
+  display: none;
+}
+
+#websites{
+  display: none;
+}
+
+#newmedia{
+  display: none;
+}
+
+
+#performance{
+  display: none;
+}
+
+
+#conclusion {
+  display: none;
+}
+
+
+ #fakecontainer{
+  display: none;
+}
+
+#chapterbackground{
+  display: none;
+  }
+
+#chapterbackground2{
+  display: none;
+  }
+
+.chaptercontainer{
+  display: none;}
+
+.chapters{ 
+  display: none;
+  }
+
+#chapter1{
+  display: none;
+  }
+
+#chapter2{
+  display: none;
+  }
+
+#chapter3{
+  display: none;
+  }
+
+#chapter4{
+  display: none;
+  }
+
+#chapter5{
+  display: none;
+  }
+
+#chapter6{
+  display: none;
+  }
+
+#chapter7{
+  display: none;
+  }
+
+#chapter8{
+  display: none;
+  }
+
+#chapterrandje{
+  display: none;
+  }
+
+#pitchforklogo{
+  display: none;
+
+}
+
+#noiseylogo{
+  display: none;
+
+}
+
+#ralogo{
+  display: none;
+}
+
+#fadercontainer{
+  display: none;
+}
+#faderblok{
+  display: none;
+}
+
+.complexblok{
+  display: none;
+}
+
+#blokje1{
+  display: none;
+}
+
+#blokje2{
+  display: none;
+}
+#blokje3{
+  display: none;
+}
+#blokje4{
+  display: none;
+}
+#blokje5{
+  display: none;
+}
+#blokje6{
+  display: none;
+}
+#blokje7{
+  display: none;
+}
+#blokje8{
+  display: none;
+}
+
+#factrandje{
+  display: none;
+}
+
+#dazedblokje2{
+  display: none;
+}
+
+#dazedblokje3{
+  display: none;
+}
+
+#complexfade{
+  display: none;
+}
+
+#complexfade2{
+  display: none;
+}
+
+#complexsearch{
+  display: none;
+}
+
+#complexmenu2{
+  display: none;}
+
+#subtitle{
+  display: none;
+}
+
+#social1{
+  display: none;
+}
+
+#complexbars{
+  display: none;
+}
+
+#dazednews{
+  display: none;
+}
+
+#dazedsocial{
+  display: none;
+}
+
+#social1{
+  display: none;
+}
+
+#social2{
+  display: none;
+}
+
+#social3{
+  display: none;
+}
+
+.socialfader{
+  display: none;
+}
+
+#printDiv{
+  position:absolute;
+  width:300px;
+  height:300px;
+  z-index:15;
+  top:50%;
+  left:50%;
+  margin:-150px 0 0 -150px;
+}
+
+}
+
+
